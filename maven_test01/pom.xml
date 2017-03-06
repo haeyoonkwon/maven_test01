@@ -146,7 +146,9 @@
             <version>2.5</version>
             <configuration>
                 <webXml>WebContent\WEB-INF\web.xml</webXml>
+                <warSourceDirectory>${basedir}/WebContent</warSourceDirectory>
             </configuration>
+            
         </plugin>  
 </plugins>
 </build>

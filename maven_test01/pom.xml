@@ -145,7 +145,7 @@
             <artifactId>maven-war-plugin</artifactId>
             <version>2.5</version>
             <configuration>
-                <webXml>src\main\web\WEB-INF\web.xml</webXml>
+                <webXml>WebContent\WEB-INF\web.xml</webXml>
             </configuration>
         </plugin>  
 </plugins>
